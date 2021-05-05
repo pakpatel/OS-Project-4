@@ -1,0 +1,132 @@
+Script started on Fri 30 Apr 2021 06:21:13 PM EDT
+]0;daxpate@in-csci-rrpc02:~/ece40800/Project-4[daxpate@in-csci-rrpc02 Project-4]$ make
+gcc -g -c media_transfer.c
+gcc -g -c parser.c
+]0;daxpate@in-csci-rrpc02:~/ece40800/Project-4[daxpate@in-csci-rrpc02 Project-4]$ ./server 
+*******Server configuration*******
+Port Number: 1334
+Num Threads: 4
+Max Reqs: 10
+Media Path: /home/daxpate/ece40800/Project-4 
+Sched type: 2
+**********************************
+
+04/30/21 22:22:19.931429242 UTC: Main: Accepting New Connection: 5
+04/30/21 22:22:19.931429242 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:22:19.931558717 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:23:27.310656367 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:23:27.310736915 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:23:27.310758541 UTC: Main: Accepting New Connection: 6
+04/30/21 22:23:27.310758541 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:23:27.310794516 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:23:27.310791989 UTC: Watch Request: Thead 140395902371584: Handling client 0
+04/30/21 22:23:27.310835365 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:23:31.090705719 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:23:31.090758125 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:23:31.090777397 UTC: Main: Accepting New Connection: 7
+04/30/21 22:23:31.090777397 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:23:31.090812990 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:23:31.090813366 UTC: Watch Request: Thead 140395885586176: Handling client 0
+04/30/21 22:23:31.090873986 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:23:31.090851031 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:23:31.090932877 UTC: Main: Added New Client to the Job queue
+04/30/21 22:23:31.090949967 UTC: Watch Request: Thead 140395893978880: Handling client 0
+
+04/30/21 22:23:31.090956573 UTC: Main: Accepting New Connection: 9
+04/30/21 22:23:31.090956573 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:23:31.091024547 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:23:31.090980235 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:31.361506351 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:24:31.361558104 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:24:31.361577666 UTC: Main: Accepting New Connection: 8
+04/30/21 22:24:31.361577666 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:24:31.361605656 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:31.361604664 UTC: Watch Request: Thead 140395877193472: Handling client 0
+04/30/21 22:24:31.361667877 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:31.361643858 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:24:31.361730088 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:24:31.361754699 UTC: Main: Accepting New Connection: 11
+04/30/21 22:24:31.361754699 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:24:31.361796462 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:31.361753928 UTC: Watch Request: Thead 140395885586176: Handling client 0
+04/30/21 22:24:31.361841621 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:47.327535383 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:24:47.327581513 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:24:47.327603906 UTC: Main: Accepting New Connection: 10
+04/30/21 22:24:47.327603906 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:24:47.327632196 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:47.327630238 UTC: Watch Request: Thead 140395893978880: Handling client 0
+04/30/21 22:24:47.327670086 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:24:47.327695354 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:24:47.327729749 UTC: Main: Added New Client to the Job queue
+04/30/21 22:24:47.327773681 UTC: Watch Request: Thead 140395877193472: Handling client 0
+04/30/21 22:24:47.327804381 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+
+04/30/21 22:25:09.150677649 UTC: Main: Accepting New Connection: 13
+04/30/21 22:25:09.150677649 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:25:09.150709497 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:25:19.193575576 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:25:19.193630907 UTC: Main: Added New Client to the Job queue
+04/30/21 22:25:19.193677938 UTC: Watch Request: Thead 140395877193472: Handling client 0
+04/30/21 22:25:19.193726035 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+
+04/30/21 22:25:55.382138598 UTC: Main: Accepting New Connection: 12
+04/30/21 22:25:55.382138598 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:25:55.382170464 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:25:58.407233882 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:25:58.407279803 UTC: Main: Added New Client to the Job queue
+04/30/21 22:25:58.407326689 UTC: Watch Request: Thead 140395902371584: Handling client 0
+04/30/21 22:25:58.407395067 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+
+04/30/21 22:26:38.283256548 UTC: Main: Accepting New Connection: 14
+04/30/21 22:26:38.283256548 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:26:38.283288904 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:28:07.222541269 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: 04/30/21 22:28:07.222567759 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:28:07.222603493 UTC: Main: Accepting New Connection: 15
+04/30/21 22:28:07.222603493 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:28:07.222614235 UTC: Watch Request: Thead 140395885586176: Handling client 0
+04/30/21 22:28:07.222678046 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:28:07.222651556 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:28:07.222739385 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:28:07.222767274 UTC: Main: Added New Client to the Job queue
+04/30/21 22:28:07.222812008 UTC: Watch Request: Thead 140395893978880: Handling client 0
+04/30/21 22:28:07.222838523 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:28:07.224033895 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Invalid request
+
+04/30/21 22:28:21.836176963 UTC: Main: Accepting New Connection: 16
+04/30/21 22:28:21.836176963 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:28:21.836208229 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:29:17.796608289 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:29:17.796664531 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:29:17.796686460 UTC: Main: Accepting New Connection: 17
+04/30/21 22:29:17.796686460 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:29:17.796714730 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:29:17.796711237 UTC: Watch Request: Thead 140395893978880: Handling client 0
+04/30/21 22:29:17.796774530 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:29:17.796750862 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: get r.mp3
+04/30/21 22:29:17.799260936 UTC: Main: Added New Client to the Job queue
+04/30/21 22:29:17.799272923 UTC: Watch Request: Thead 140395885586176: Handling client 0
+04/30/21 22:29:17.799331226 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+
+04/30/21 22:29:17.799309484 UTC: Main: Accepting New Connection: 19
+04/30/21 22:29:17.799309484 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:29:17.799401487 UTC: Handle Request: Client IP: 10.234.136.56 Ephemeral Port: 1334
+04/30/21 22:29:17.799420888 UTC: Handle_Request: Client IP: 10.234.136.56 Ephemeral Port: 1334 : Command Recevied string: list
+04/30/21 22:29:17.799446670 UTC: Main: Added New Client to the Job queue
+
+04/30/21 22:29:17.799462158 UTC: Main: Accepting New Connection: 21
+04/30/21 22:29:17.799462459 UTC: Watch Request: Thead 140395902371584: Handling client 0
+04/30/21 22:29:17.799462158 UTC: Main: Adding New Client to the Job queue...
+04/30/21 22:29:17.799456475 UTC: Watch Request: Thead 140395877193472: Handling client 0
+Segmentation fault (core dumped)
+]0;daxpate@in-csci-rrpc02:~/ece40800/Project-4[daxpate@in-csci-rrpc02 Project-4]$ exit
+exit
+
+Script done on Fri 30 Apr 2021 06:29:48 PM EDT

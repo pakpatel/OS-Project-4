@@ -1,0 +1,49 @@
+Script started on Fri 30 Apr 2021 05:59:17 PM EDT
+]0;johjbake@tesla:~/Project-4/Project-4[?1034h[johjbake@tesla Project-4]$ ssh[K[K[Kls -l
+total 28780
+-rwxr-xr-x 1 johjbake students   35776 Apr 30 17:43 [0m[38;5;34mclient[0m
+-rw-r--r-- 1 johjbake students    2353 Apr 30 17:35 client.c
+-rw-r--r-- 1 johjbake students   13312 Apr 30 17:43 client.o
+-rw-r--r-- 1 johjbake students      39 Apr 30 17:35 clientrc
+-rw-r--r-- 1 johjbake students       0 Apr 30 17:58 jb_sjf_03.script
+-rw-r--r-- 1 johjbake students       0 Apr 30 17:58 jb_sjf_04.script
+-rw-r--r-- 1 johjbake students       0 Apr 30 17:59 jb_sjf_tesla.script
+-rw-r--r-- 1 johjbake students    1297 Apr 30 17:35 linked_list.h
+-rw-r--r-- 1 johjbake students     445 Apr 30 17:35 Makefile
+-rw-r--r-- 1 johjbake students    2706 Apr 30 17:35 media_transfer.c
+-rw-r--r-- 1 johjbake students    1125 Apr 30 17:35 media_transfer.h
+-rw-r--r-- 1 johjbake students   12520 Apr 30 17:55 media_transfer.o
+-rw-r--r-- 1 johjbake students     164 Apr 30 17:35 mserver.config
+-rw-r--r-- 1 johjbake students    8911 Apr 30 17:35 old.c
+-rw-r--r-- 1 johjbake students    9114 Apr 30 17:35 parser.c
+-rw-r--r-- 1 johjbake students    2615 Apr 30 17:35 parser.h
+-rw-r--r-- 1 johjbake students   18848 Apr 30 17:55 parser.o
+-rw-r--r-- 1 johjbake students    1961 Apr 30 17:35 queue.h
+-rw-r--r-- 1 johjbake students 9733309 Apr 30 17:35 [38;5;45mreceived.mp3[0m
+-rw-r--r-- 1 johjbake students 9733309 Apr 30 17:35 [38;5;45mr.mp3[0m
+-rw-r--r-- 1 johjbake students     113 Apr 30 17:35 send.txt
+-rwxr-xr-x 1 johjbake students   48904 Apr 30 17:43 [38;5;34mserver[0m
+-rw-r--r-- 1 johjbake students   18145 Apr 30 17:35 server.c
+-rw-r--r-- 1 johjbake students   34040 Apr 30 17:43 server.o
+-rw-r--r-- 1 johjbake students 9733309 Apr 30 17:35 [38;5;45msong.mp3[0m
+]0;johjbake@tesla:~/Project-4/Project-4[johjbake@tesla Project-4]$ c[Kssh[K[K[K./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:03:59.921906506 UTC: TX: 
+04/30/21 22:03:59.921906506 UTC: Sent Command: 
+
+Invalid Command: 
+
+04/30/21 22:03:59.921906506 UTC: TX: ^C
+]0;johjbake@tesla:~/Project-4/Project-4[johjbake@tesla Project-4]$ 
+]0;johjbake@tesla:~/Project-4/Project-4[johjbake@tesla Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:05:52.446396454 UTC: TX: list
+04/30/21 22:05:52.446396454 UTC: Sent Command: list
+
+^C
+]0;johjbake@tesla:~/Project-4/Project-4[johjbake@tesla Project-4]$ exio[Kt
+exit
+
+Script done on Fri 30 Apr 2021 06:07:33 PM EDT

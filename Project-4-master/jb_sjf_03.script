@@ -1,0 +1,144 @@
+Script started on Fri 30 Apr 2021 05:58:36 PM EDT
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[?1034h[johjbake@in-csci-rrpc03 Project-4]$ ./ckuebt uibn[K[K[K[K[K[K[K[K[K[Klient in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 21:59:46.652695899 UTC: TX: list
+04/30/21 21:59:46.652695899 UTC: Sent Command: list
+
+04/30/21 22:00:51.631174711 UTC: Header Response Received
+04/30/21 22:00:51.631229883 UTC: Status:100  Host:134.68.136.32:1334  Length:522  Type:Text  
+	Size		Name
+	4096		.
+	70		..
+	4096		.git
+	473		.gitignore
+	445		Makefile
+	2353		client.c
+	39		clientrc
+	1297		linked_list.h
+	2706		media_transfer.c
+	1125		media_transfer.h
+	8911		old.c
+	9114		parser.c
+	2615		parser.h
+	1961		queue.h
+	9733309		r.mp3
+	9733309		received.mp3
+	113		send.txt
+	9733309		song.mp3
+	13312		client.o
+	35776		client
+	18175		server.c
+	34072		server.o
+	48904		server
+	163		mserver.config
+	0		dp_sjf_02_server.script
+	0		dp_sjf_03.script
+	0		dp_sjf_tesla.script
+	12520		media_transfer.o
+	18848		parser.o
+
+04/30/21 22:00:51.632969714 UTC: File Listing Received
+04/30/21 21:59:46.652695899 UTC: TX: get r.mp3
+04/30/21 21:59:46.652695899 UTC: Sent Command: get r.mp3
+
+get received.mp3
+^C
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ ge[K[Klist
+bash: list: command not found...
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ get cli[K[K[Ksoin[K[Kng.mp3
+bash: get: command not found...
+Similar commands are::
+'git'
+'GET'
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ GET song.mp3
+Can't connect to song.mp3:80 (Bad hostname)
+
+LWP::Protocol::http::Socket: Bad hostname 'song.mp3' at /usr/share/perl5/LWP/Protocol/http.pm line 51.
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ ^C
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ g[Klist 
+bash: list: command not found...
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ ls -l
+total 28780
+-rwxr-xr-x 1 johjbake students   35776 Apr 30 17:43 [0m[38;5;34mclient[0m
+-rw-r--r-- 1 johjbake students    2353 Apr 30 17:35 client.c
+-rw-r--r-- 1 johjbake students   13312 Apr 30 17:43 client.o
+-rw-r--r-- 1 johjbake students      39 Apr 30 17:35 clientrc
+-rw-r--r-- 1 johjbake students       0 Apr 30 17:58 jb_sjf_03.script
+-rw-r--r-- 1 johjbake students       0 Apr 30 17:58 jb_sjf_04.script
+-rw-r--r-- 1 johjbake students       0 Apr 30 17:59 jb_sjf_tesla.script
+-rw-r--r-- 1 johjbake students    1297 Apr 30 17:35 linked_list.h
+-rw-r--r-- 1 johjbake students     445 Apr 30 17:35 Makefile
+-rw-r--r-- 1 johjbake students    2706 Apr 30 17:35 media_transfer.c
+-rw-r--r-- 1 johjbake students    1125 Apr 30 17:35 media_transfer.h
+-rw-r--r-- 1 johjbake students   12520 Apr 30 17:55 media_transfer.o
+-rw-r--r-- 1 johjbake students     164 Apr 30 17:35 mserver.config
+-rw-r--r-- 1 johjbake students    8911 Apr 30 17:35 old.c
+-rw-r--r-- 1 johjbake students    9114 Apr 30 17:35 parser.c
+-rw-r--r-- 1 johjbake students    2615 Apr 30 17:35 parser.h
+-rw-r--r-- 1 johjbake students   18848 Apr 30 17:55 parser.o
+-rw-r--r-- 1 johjbake students    1961 Apr 30 17:35 queue.h
+-rw-r--r-- 1 johjbake students 9733309 Apr 30 17:35 [38;5;45mreceived.mp3[0m
+-rw-r--r-- 1 johjbake students 9733309 Apr 30 17:35 [38;5;45mr.mp3[0m
+-rw-r--r-- 1 johjbake students     113 Apr 30 17:35 send.txt
+-rwxr-xr-x 1 johjbake students   48904 Apr 30 17:43 [38;5;34mserver[0m
+-rw-r--r-- 1 johjbake students   18145 Apr 30 17:35 server.c
+-rw-r--r-- 1 johjbake students   34040 Apr 30 17:43 server.o
+-rw-r--r-- 1 johjbake students 9733309 Apr 30 17:35 [38;5;45msong.mp3[0m
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ cd [K[K[Kls [K[K[Klist
+bash: list: command not found...
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ cd[K[Kssj[Kh[K[K[Klists -list GET song.mp3get[C[C[C[C[C[C[C[C[C[8Plist./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:03:15.920073127 UTC: TX: ,j  list
+04/30/21 22:03:15.920073127 UTC: Sent Command: list
+
+04/30/21 22:03:18.948637093 UTC: Header Response Received
+04/30/21 22:03:18.948701256 UTC: Status:100  Host:134.68.136.32:1334  Length:522  Type:Text  
+	Size		Name
+	4096		.
+	70		..
+	4096		.git
+	473		.gitignore
+	445		Makefile
+	2353		client.c
+	39		clientrc
+	1297		linked_list.h
+	2706		media_transfer.c
+	1125		media_transfer.h
+	8911		old.c
+	9114		parser.c
+	2615		parser.h
+	1961		queue.h
+	9733309		r.mp3
+	9733309		received.mp3
+	113		send.txt
+	9733309		song.mp3
+	13312		client.o
+	35776		client
+	18175		server.c
+	34072		server.o
+	48904		server
+	163		mserver.config
+	0		dp_sjf_02_server.script
+	0		dp_sjf_03.script
+	0		dp_sjf_tesla.script
+	12520		media_transfer.o
+	18848		parser.o
+
+04/30/21 22:03:18.952086755 UTC: File Listing Received
+04/30/21 22:03:15.920073127 UTC: TX: get send.tex  xt
+04/30/21 22:03:15.920073127 UTC: Sent Command: get send.txt
+
+^C
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:05:42.374282421 UTC: TX: lk ist
+04/30/21 22:05:42.374282421 UTC: Sent Command: list
+
+^C
+]0;johjbake@in-csci-rrpc03:~/Project-4/Project-4[johjbake@in-csci-rrpc03 Project-4]$ e[Kx[Kexit[K[K[K[Kexit
+exit
+
+Script done on Fri 30 Apr 2021 06:07:29 PM EDT

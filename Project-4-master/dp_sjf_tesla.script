@@ -1,0 +1,60 @@
+Script started on Fri 30 Apr 2021 05:59:15 PM EDT
+]0;daxpate@tesla:~/ece40800/Project-4[daxpate@tesla Project-4]$ makegit checkout sjfmake[Kgit checkout sjfmake[K[Kmakegit checkout sjfls[Kcd Project-4ls[Kgit clone https://github.iu.edu/Operating-Systems-Spring-2021/Project-4.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit clone https://github.iu.edu/Operating-Systems-Spring-2021/Project-4.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit clone https://github.iu.edu/Operating-Systems-Spring-2021/Project-4.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd Project-4ls[Kgit checkout sjfmake[K[K./client inc-scs[K[K[K[K[K-csci-rrpc02[K2:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:00:34.861503944 UTC: TX: list
+04/30/21 22:00:34.861503944 UTC: Sent Command: list
+
+04/30/21 22:02:08.971817496 UTC: Header Response Received
+04/30/21 22:02:08.971881861 UTC: Status:100  Host:134.68.136.32:1334  Length:522  Type:Text  
+	Size		Name
+	4096		.
+	70		..
+	4096		.git
+	473		.gitignore
+	445		Makefile
+	2353		client.c
+	39		clientrc
+	1297		linked_list.h
+	2706		media_transfer.c
+	1125		media_transfer.h
+	8911		old.c
+	9114		parser.c
+	2615		parser.h
+	1961		queue.h
+	9733309		r.mp3
+	9733309		received.mp3
+	113		send.txt
+	9733309		song.mp3
+	13312		client.o
+	35776		client
+	18175		server.c
+	34072		server.o
+	48904		server
+	163		mserver.config
+	0		dp_sjf_02_server.script
+	0		dp_sjf_03.script
+	0		dp_sjf_tesla.script
+	12520		media_transfer.o
+	18848		parser.o
+
+04/30/21 22:02:08.972635005 UTC: File Listing Received
+04/30/21 22:00:34.861503944 UTC: TX: exit
+]0;daxpate@tesla:~/ece40800/Project-4[daxpate@tesla Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:04:40.405260563 UTC: TX: list
+04/30/21 22:04:40.405260563 UTC: Sent Command: list
+
+^C
+]0;daxpate@tesla:~/ece40800/Project-4[daxpate@tesla Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:06:22.973656491 UTC: TX: list
+04/30/21 22:06:22.973656491 UTC: Sent Command: list
+
+^C
+]0;daxpate@tesla:~/ece40800/Project-4[daxpate@tesla Project-4]$ exit
+exit
+
+Script done on Fri 30 Apr 2021 06:07:28 PM EDT

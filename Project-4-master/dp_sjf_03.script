@@ -1,0 +1,57 @@
+Script started on Fri 30 Apr 2021 05:58:56 PM EDT
+]0;daxpate@in-csci-rrpc03:~/ece40800/Project-4[daxpate@in-csci-rrpc03 Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 21:59:40.469087843 UTC: TX: list
+04/30/21 21:59:40.469087843 UTC: Sent Command: list
+
+04/30/21 22:00:47.865520171 UTC: Header Response Received
+04/30/21 22:00:47.865570817 UTC: Status:100  Host:134.68.136.32:1334  Length:522  Type:Text  
+	Size		Name
+	4096		.
+	70		..
+	4096		.git
+	473		.gitignore
+	445		Makefile
+	2353		client.c
+	39		clientrc
+	1297		linked_list.h
+	2706		media_transfer.c
+	1125		media_transfer.h
+	8911		old.c
+	9114		parser.c
+	2615		parser.h
+	1961		queue.h
+	9733309		r.mp3
+	9733309		received.mp3
+	113		send.txt
+	9733309		song.mp3
+	13312		client.o
+	35776		client
+	18175		server.c
+	34072		server.o
+	48904		server
+	163		mserver.config
+	0		dp_sjf_02_server.script
+	0		dp_sjf_03.script
+	0		dp_sjf_tesla.script
+	12520		media_transfer.o
+	18848		parser.o
+
+04/30/21 22:00:47.867123875 UTC: File Listing Received
+04/30/21 21:59:40.469087843 UTC: TX: get r.mp4 3
+04/30/21 21:59:40.469087843 UTC: Sent Command: get r.mp3
+
+
+^C
+]0;daxpate@in-csci-rrpc03:~/ece40800/Project-4[daxpate@in-csci-rrpc03 Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:05:42.993658304 UTC: TX: get r.mp3
+04/30/21 22:05:42.993658304 UTC: Sent Command: get r.mp3
+
+^C
+]0;daxpate@in-csci-rrpc03:~/ece40800/Project-4[daxpate@in-csci-rrpc03 Project-4]$ exit
+exit
+
+Script done on Fri 30 Apr 2021 06:07:24 PM EDT

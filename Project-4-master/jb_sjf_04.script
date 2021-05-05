@@ -1,0 +1,106 @@
+Script started on Fri 30 Apr 2021 05:58:48 PM EDT
+]0;johjbake@in-csci-rrpc04:~/Project-4/Project-4[?1034h[johjbake@in-csci-rrpc04 Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:00:05.724885189 UTC: TX: list
+04/30/21 22:00:05.724885189 UTC: Sent Command: list
+
+04/30/21 22:01:51.847463211 UTC: Header Response Received
+04/30/21 22:01:51.847510658 UTC: Status:100  Host:134.68.136.32:1334  Length:522  Type:Text  
+	Size		Name
+	4096		.
+	70		..
+	4096		.git
+	473		.gitignore
+	445		Makefile
+	2353		client.c
+	39		clientrc
+	1297		linked_list.h
+	2706		media_transfer.c
+	1125		media_transfer.h
+	8911		old.c
+	9114		parser.c
+	2615		parser.h
+	1961		queue.h
+	9733309		r.mp3
+	9733309		received.mp3
+	113		send.txt
+	9733309		song.mp3
+	13312		client.o
+	35776		client
+	18175		server.c
+	34072		server.o
+	48904		server
+	163		mserver.config
+	0		dp_sjf_02_server.script
+	0		dp_sjf_03.script
+	0		dp_sjf_tesla.script
+	12520		media_transfer.o
+	18848		parser.o
+
+04/30/21 22:01:51.849199492 UTC: File Listing Received
+04/30/21 22:00:05.724885189 UTC: TX: get parser.c
+04/30/21 22:00:05.724885189 UTC: Sent Command: get parser.c
+
+^^M^C
+]0;johjbake@in-csci-rrpc04:~/Project-4/Project-4[johjbake@in-csci-rrpc04 Project-4]$ get po[Karser.h
+bash: get: command not found...
+Similar commands are::
+'git'
+'GET'
+]0;johjbake@in-csci-rrpc04:~/Project-4/Project-4[johjbake@in-csci-rrpc04 Project-4]$ ./client in0c[K[K-csci-rrpc-[K02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:02:29.622244380 UTC: TX: list
+04/30/21 22:02:29.622244380 UTC: Sent Command: list
+
+04/30/21 22:02:39.670748437 UTC: Header Response Received
+04/30/21 22:02:39.670811849 UTC: Status:100  Host:134.68.136.32:1334  Length:522  Type:Text  
+	Size		Name
+	4096		.
+	70		..
+	4096		.git
+	473		.gitignore
+	445		Makefile
+	2353		client.c
+	39		clientrc
+	1297		linked_list.h
+	2706		media_transfer.c
+	1125		media_transfer.h
+	8911		old.c
+	9114		parser.c
+	2615		parser.h
+	1961		queue.h
+	9733309		r.mp3
+	9733309		received.mp3
+	113		send.txt
+	9733309		song.mp3
+	13312		client.o
+	35776		client
+	18175		server.c
+	34072		server.o
+	48904		server
+	163		mserver.config
+	0		dp_sjf_02_server.script
+	0		dp_sjf_03.script
+	0		dp_sjf_tesla.script
+	12520		media_transfer.o
+	18848		parser.o
+
+04/30/21 22:02:39.674273862 UTC: File Listing Received
+04/30/21 22:02:29.622244380 UTC: TX: get m song.mp3
+04/30/21 22:02:29.622244380 UTC: Sent Command: get song.mp3
+
+
+^C
+]0;johjbake@in-csci-rrpc04:~/Project-4/Project-4[johjbake@in-csci-rrpc04 Project-4]$ ./client in-csci-rrpc02:1334
+h_length = 4
+Connected: server's address is in-csci-rrpc02
+04/30/21 22:05:45.818752852 UTC: TX: list
+04/30/21 22:05:45.818752852 UTC: Sent Command: list
+
+^C
+]0;johjbake@in-csci-rrpc04:~/Project-4/Project-4[johjbake@in-csci-rrpc04 Project-4]$ exit
+exit
+
+Script done on Fri 30 Apr 2021 06:07:14 PM EDT
